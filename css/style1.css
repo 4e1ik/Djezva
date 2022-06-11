@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+.section1 {
+    font-size: 15px;
+    font-family: sans-serif;
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    display: inline-block;
+    line-height: 19px;
+    margin: 50px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.logoImg {
+    display: inline-block;
+    margin: 50px 0px 0px 80px;
+}
+
+.menuButtons {
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+
+.button2 {
+    display: inline-block;
+    text-align: center;
+    margin: 60px 0px 0px 60px;
+    display: inline-block;
+    color: rgba(255,255,255,.9);
+    text-decoration: none;
+    border-width: 0px;
+    background: none;
+    transition: 0.4s;
+}
+
+.button2:active {
+    color: rgba(255,255,255,.9); 
+}
+
+.button2:hover {
+    color: #061e37;
+}
+
+.button1 {
+    display: inline-block;
+    margin: 50px 80px 0px 500px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 20px;
+    outline: none;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    background: none;
+    transition: 0.4s;
+}
+
+.button1:active {
+    color: rgba(255,255,255,.9);
+}
+
+.button1:hover {
+    background-color:rgba(255,255,255,.9);
+    color: #061e37;
+}
+
+.section2 {
+    margin-top: 250px;
+}
+.header {
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 75px;
+}
+.text1 {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 80px;
+    line-height: 40px;
+    color: #fff;
+}
+.button3 {
+    display: inline-block;
+    margin: 40px 0px 190px 80px;
+    color: 061e37;
+    text-decoration: none;
+    padding: 23px 33px;
+    outline: none;
+    border-width: 0px;
+    border-style: solid none;
+    border-radius: 3px;
+    background: #fff;
+    transition: 0.4s;
+}
+.button3:hover {
+     background-color: #061e37;
+     color: rgba(255,255,255,.9);
+
+    }
+.button3:active {
+     background: linear-gradient(#061e37, #08284b) #061e37; 
+    }
+
+.textBB, .textBT {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.text2 {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #b0bec5
+}
+
+.header2 {
+    font-size: 45px;
+    color: black;
+}
+
+.subtitle {
+    font-size: 25px;
+}
+
+.img2 {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 125px;
+}
